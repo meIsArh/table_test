@@ -1,0 +1,43 @@
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-top: 5px solid #F2F8F8;
+  border-collapse: collapse;
+
+  &__head {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  &__arrowcont {
+    display: flex;
+  }
+
+  &__arrow {
+    width: 35px;
+    cursor: pointer;
+    opacity: .1;
+
+    &--active {
+      opacity: 1;
+    }
+  }
+
+  table {
+    width: 100%;
+  }
+
+  th {
+    font-weight: bold;
+    padding: 5px;
+    background: #F2F8F8;
+    border: none;
+    border-bottom: 5px solid #F2F8F8;
+  }
+
+  td {
+    padding: 5px;
+    border: none;
+    border-bottom: 5px solid #F2F8F8;
+  }
+}
